@@ -13,7 +13,7 @@ alias ll="ls -l"
 alias la="ls -al"
 
 # git branch in prompt
-PS1='[\u@\h \W$(__git_ps1 " (%s)")]\\$ '
+PS1='\e[0;33m\t\e[m \u \e[1;34m\w\e[0;35m$(__git_ps1 " (%s)")\e[m\$ '
 
 # Erlang release activation
 . /opt/erlang/r15b03/activate
