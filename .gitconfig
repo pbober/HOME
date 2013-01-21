@@ -1,0 +1,9 @@
+[user]
+	name = Piotr Bober
+	email = pedro.bober@gmail.com
+[alias]
+	st = status
+	l = log --graph --decorate=short -n 7
+	ls = branch -a
+[color]
+	ui = true
