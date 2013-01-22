@@ -8,15 +8,16 @@ fi
 # User specific aliases and functions
 
 # Aliases
-alias l="ls"
-alias ll="ls -l"
-alias la="ls -al"
+alias ll='ls -l'
+alias la='ls -al'
+alias l='ls -a'
 
-# git branch in prompt
+# Customize bash prompt: colors and git branch
 PS1='\e[0;36m\t\e[m \u \e[1;34m\w\e[0;35m$(__git_ps1 " (%s)")\e[m\$ '
 
-# Erlang release activation
-. /opt/erlang/r15b03/activate
+# erlang release (kerl)
+ERLANG_RELEASE="r15b03"
+source /opt/erlang/$ERLANG_RELEASE/activate
 
 # Home bin directory
 export PATH=/home/pbober/bin:$PATH

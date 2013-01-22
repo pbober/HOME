@@ -6,4 +6,5 @@
 	l = log --graph --decorate=short -n 7
 	ls = branch -a
 [color]
+	editor = vim
 	ui = true

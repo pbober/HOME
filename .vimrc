@@ -13,6 +13,8 @@
 :set incsearch
 :set hlsearch
 
+:set wildmenu
+
 :set showcmd
 
 :colorscheme slate
