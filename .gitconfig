@@ -5,6 +5,7 @@
 	st = status
 	l = log --graph --decorate=short -n 7
 	ls = branch -a
+	diffs = diff --staged
 [color]
 	ui = true
 [core]
