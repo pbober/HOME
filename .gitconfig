@@ -6,6 +6,7 @@
 	l = log --graph --decorate=short -n 7
 	ls = branch -a
 	diffs = diff --staged
+	la = log --graph --decorate=short -n 7 --branches='*'
 [color]
 	ui = true
 [core]
