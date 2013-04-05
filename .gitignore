@@ -1,7 +1,15 @@
-/*
-!/bin/
+# Ignore everything
+*
+
+# Except specified directories
+!bin/
+!.xmonad/
+
+# and files
+!bin/*
 !.bashrc
 !.gitconfig
 !.gitignore
 !.vimrc
+!.xmonad/xmonad.hs
 !README
