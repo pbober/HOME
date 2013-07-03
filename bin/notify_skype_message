@@ -1,0 +1,4 @@
+#! /bin/bash
+
+notify-send -c im -i /home/pbober/Media/skype-icon.png "Skype message" "You have a skype message! <img src=\"/home/pbober/Media/skype-logo.png\" alt=\"Skype\"/>"
+
