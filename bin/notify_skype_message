@@ -1,4 +1,7 @@
 #! /bin/bash
 
-notify-send -c im -i /home/pbober/Media/skype-icon.png "Skype message" "You have a skype message! <img src=\"/home/pbober/Media/skype-logo.png\" alt=\"Skype\"/>"
+# binding for skype: notify_skype_message %sname %smessage
+
+notify-send -c im -i /home/pbober/Media/skype-icon.png "Skype message from $1" "Message from <b>$1</b>:
+$2"
 
